@@ -247,3 +247,57 @@ footer a.socLink{
     font-size: 21px;
 }
 
+.content .breadcrumbs span{
+    font-size: 13px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: normal;
+}
+
+.content .breadcrumbs a{
+    text-decoration: none;
+}
+
+.content h2{
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content h3{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content > span{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+.content > p{
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.content > a{
+    font-size: 13px;
+    line-height: 22px;
+    color: #0069b4;
+}
+
+.content .field{
+    width: 980px;
+    height: 210px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #b3b3b3;
+}
