@@ -27,6 +27,24 @@ ul{
     padding: 0 15px;
 }
 
+.invisLink{
+    position: relative;
+    z-index: 1;
+}
+
+.invisLink > a{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
 .clear::after{
     content: "";
     display: block;
@@ -125,9 +143,30 @@ header .phone [class*="icon"]{
     font-size: 20px;
 }
 
+.sale{
+    height: 360px;
+    width: 305px;
+}
+
+.slider{
+    height: 360px;
+    width: 640px;
+}
+
+.banner > div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .advantages{
     width: calc(100% - 320px);
     float: left;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
 }
 
 .advantages .item{
@@ -210,8 +249,15 @@ header .phone [class*="icon"]{
     color: #666666;
 }
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
 .card{
     position: relative;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .status{
@@ -310,6 +356,11 @@ header .phone [class*="icon"]{
     color: #666666;
 }
 
+.widgets .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
 .socialItem:first-child,
 .socialItem:last-child{
     width: 290px;
@@ -326,6 +377,11 @@ header .phone [class*="icon"]{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.info .tabs li{
+    display: inline-block;
+    padding: 0px 15px;
 }
 
 .tabs li a{
