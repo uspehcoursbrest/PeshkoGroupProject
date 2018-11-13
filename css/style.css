@@ -666,4 +666,59 @@ footer a.socLink{
     .container{
         width: 100%;
     }
+
+    header{
+        width: 100%;
+        height: 115px;
+        background-color: #63ba49;
+    }
+
+    header .left{
+        display: none;
+    }
+
+    header .logo img{
+        display: none;
+    }
+
+    header .logo{
+        background-image: url("../img/png/logo_mobile.png");
+    }
+
+    header .right{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .advSab{
+        display: none;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        display: block;
+        flex: 0 0 250px;
+    }
+
+    .widgets{
+        display: none;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .accordion{
+        display: none;
+    }
+
 }
