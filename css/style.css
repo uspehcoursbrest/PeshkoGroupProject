@@ -561,6 +561,76 @@ footer a.socLink{
 
 /*страница с оформлением заказа*/
 
+.content .breadcrumbs span{
+    font-size: 13px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: normal;
+}
+
+.content .breadcrumbs a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: normal;
+}
+
+.content h2{
+    font-size: 25px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.formBlock label{
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.formBlock .selectB1 option{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.formBlock > span{
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.formBlock .orderList label{
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formBlock .orderList p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.formBlock .orderList span{
+    font-size: 12px;
+    line-height: 18px;
+    color: #f26522;
+    font-weight: 400;
+}
+
+.formBlock label span{
+    color: #f26522;
+}
+
 .orderList li{
     padding-left: 40px;
 }
@@ -616,6 +686,109 @@ footer a.socLink{
 .radioBtn + label{
     cursor: pointer;
 }
+
+form button{
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    height: 35px;
+    width: 190px;
+    background-color: #ea5b0c;
+    border: none;
+}
+
+/*страница корпоративным клиентам*/
+
+.clientWrap p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.clientWrap .formClient label{
+    font-style: italic;
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.formClient .cfix div span:first-child{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formClient .cfix div span:last-child{
+    font-size: 11px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formClient .cfix ul label{
+    font-style: normal;
+}
+
+.formClient .cfix div:nth-child(3) label{
+    font-size: 13px;
+    line-height: 22px;
+    color: #229647;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.clientWrap .right h3{
+     font-size: 25px;
+     line-height: 22px;
+     color: #333333;
+     font-weight: 600;
+ }
+
+.clientWrap .right p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.clientWrap .right button{
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    height: 35px;
+    width: 195px;
+    background-color: rgb(100, 186, 74);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Адаптация страниц*/
 
 @media (max-width: 1199px) {
     .container{
