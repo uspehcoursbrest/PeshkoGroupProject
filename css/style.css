@@ -560,6 +560,14 @@ footer a.socLink{
 }
 
 /*страница с оформлением заказа*/
+.ORDER{
+    height: 1500px;
+}
+
+.content .breadcrumbs li{
+    display: inline-block;
+    margin-top: 20px;
+}
 
 .content .breadcrumbs span{
     font-size: 13px;
@@ -578,24 +586,32 @@ footer a.socLink{
 
 .content h2{
     font-size: 25px;
-    line-height: 22px;
+    line-height: 50px;
     color: #333333;
-    font-weight: 500;
+    font-weight: 600;
+    display: block;
 }
 
 .formBlock label{
     font-size: 13px;
     line-height: 22px;
     color: #666666;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
+    display: block;
+    margin-top: 5px;
 }
 
 .formBlock .selectB1 option{
     font-size: 13px;
-    line-height: 22px;
+    line-height: 25px;
     color: #333333;
     font-weight: 400;
+    display: block;
+    height: 25px;
+    width: 270px;
+    border-bottom: 1px solid rgb(214, 214, 214, 0.30);
+    background-color: rgb(255, 255, 255);
 }
 
 .formBlock > span{
@@ -603,6 +619,17 @@ footer a.socLink{
     line-height: 22px;
     color: #333333;
     font-weight: 600;
+    display: block;
+    margin-top: 40px;
+}
+
+.formBlock .orderList{
+    display: block;
+    width: 47%;
+}
+
+.formBlock .orderList li{
+    padding-top: 10px;
 }
 
 .formBlock .orderList label{
@@ -627,6 +654,55 @@ footer a.socLink{
     font-weight: 400;
 }
 
+.ADRES{
+    margin-top: -5px;
+}
+
+.ADRES > div{
+    padding-top: 5px;
+}
+
+.ADRESS-1 input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 30px;
+}
+
+.ADRESS-2 div{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.ADRESS-2 div:nth-child(1){
+    margin-left: 0px;
+}
+
+.ADRESS-2 div input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 30px;
+}
+
+.ADRESS-2 #flat{
+    width: 100px;
+    height: 30px;
+}
+
+.formBlock textarea{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 105px;
+}
+
 .formBlock label span{
     color: #f26522;
 }
@@ -644,8 +720,26 @@ footer a.socLink{
     color: #333333;
 }
 
+.IDENTIF{
+    margin-top: -5px;
+}
+
+.IDENTIF div{
+    padding-top: 5px;
+}
+
+.IDENTIF input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 30px;
+}
+
 .radioBtn{
     display: none;
+
 }
 
 .radioBtn:not(checked) + label::before{
@@ -696,15 +790,42 @@ form button{
     width: 190px;
     background-color: #ea5b0c;
     border: none;
+    margin-top: 35px;
 }
 
 /*страница корпоративным клиентам*/
+
+.container .CLIENT{
+    height: 785px;
+}
+
+.CLIENT .breadcrumbs{
+    margin-top: 5px;
+}
+
+.clientWrap .left{
+    float: left;
+    width: 305px;
+}
+
+.formClient{
+    padding-left: 15px;
+    background-color: #f9f9f9;
+}
+
+.clientWrap .right{
+    padding-left: 40px;
+    float: left;
+    width: calc(100% - 305px);
+}
 
 .clientWrap p{
     font-size: 13px;
     line-height: 22px;
     color: #333333;
     font-weight: 400;
+    display: block;
+    margin-top: 15px;
 }
 
 .clientWrap .formClient label{
@@ -713,52 +834,207 @@ form button{
     line-height: 22px;
     color: #666666;
     font-weight: 400;
+    display: block;
+    padding-top: 10px;
 }
 
-.formClient .cfix div span:first-child{
+.ORG{
+    margin-top: 20px;
+}
+
+#orgName,
+#contact,
+#phoneNum{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 285px;
+    height: 28px;
+}
+
+
+.formClient .printLogo div span:first-child{
     font-size: 13px;
     line-height: 22px;
     color: #333333;
     font-weight: 400;
     font-style: normal;
+    display: block;
+    margin-top: 5px;
 }
 
-.formClient .cfix div span:last-child{
+.formClient .printLogo div span:last-child{
     font-size: 11px;
     line-height: 22px;
     color: #999999;
     font-weight: 400;
     font-style: normal;
+    display: block;
+    margin-top: -5px;
 }
+
+.formClient .printLogo div:nth-child(1){
+    float: left;
+    width: 60%;
+}
+
+.formClient .printLogo div:nth-child(2){
+    float: left;
+    width: 40%;
+}
+
+.formClient .cfix ul li{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+}
+
+.formClient .cfix ul li input{
+    display: inline-block;
+}
+
+.formClient .cfix ul li label{
+    display: inline-block;
+}
+
+
+.formClient .cfix ul li:nth-child(1){
+    padding-left: 0;
+}
+
+/*!*Кнопка да нет *!  не работает*/
+
+/*.formClient .cfix .radioBtn2{*/
+    /*display: none;*/
+
+/*}*/
+
+/*.formClient .cfix .radioBtn2:not(checked) + label::before{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 25px;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*border: 1px solid #d4d4d4;*/
+    /*border-radius: 50%;*/
+    /*transition: all 0.3s;*/
+/*}*/
+
+/*.formClient .cfix .radioBtn2:not(checked) + label::after{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 15px;*/
+    /*left: 30px;*/
+    /*width: 8px;*/
+    /*height: 8px;*/
+    /*background-color: #51bf87;*/
+    /*border-radius: 50%;*/
+    /*opacity: 0;*/
+    /*transition: all 0.3s;*/
+/*}*/
+
+/*.formClient .cfix .radioBtn2:checked + label::before{*/
+    /*border-color: #51bf87;*/
+/*}*/
+
+/*.formClient .cfix .radioBtn2:checked + label::after{*/
+    /*opacity: 1;*/
+/*}*/
+
+/*.formClient .cfix .radioBtn2 + label{*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*конец кнопки*/
 
 .formClient .cfix ul label{
     font-style: normal;
 }
 
-.formClient .cfix div:nth-child(3) label{
+#addLogo{
+    display: none;
+}
+
+.formClient .cfix > div:nth-child(2) label{
     font-size: 13px;
     line-height: 22px;
     color: #229647;
     font-weight: 400;
     font-style: normal;
     text-decoration: underline;
+    display: block;
+    margin-top: -5px;
 }
 
-.clientWrap .right h3{
+.formClient div:nth-child(2) span{
+    font-size: 11px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin-top: -5px;
+}
+
+.formClient .cfix > div:nth-child(3) label{
+    margin-top: -5px;
+}
+
+.formClient .cfix > div:nth-child(3) select{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.formClient .cfix textarea{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 125px;
+}
+
+.formClient .cfix button{
+    background-color: rgb(255, 114, 0);
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.CLIENT .clientWrap .right h3{
      font-size: 25px;
      line-height: 22px;
      color: #333333;
      font-weight: 600;
+    padding-top: 20px;
  }
 
-.clientWrap .right p{
+.CLIENT .clientWrap .right p{
     font-size: 13px;
     line-height: 22px;
     color: #333333;
     font-weight: 400;
+    margin-top: 15px;
 }
 
-.clientWrap .right button{
+.CLIENT .clientWrap .right div p:nth-child(3){
+    margin-top: 15px;
+}
+
+.CLIENT .clientWrap .right button{
     font-size: 14px;
     line-height: 35px;
     color: #ffffff;
@@ -767,6 +1043,7 @@ form button{
     width: 195px;
     background-color: rgb(100, 186, 74);
     border: none;
+    margin-top: 25px;
 }
 
 

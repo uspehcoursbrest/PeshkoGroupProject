@@ -43,97 +43,103 @@
         </div>
     </div>
 </header>
-<div class="content">
-    <ul class="breadcrumbs">
-        <li><a href="#">Главная / </a></li>
-        <li><span>Корпоративным клиентам</span></li>
-    </ul>
-    <div class="clientWrap cfix">
-        <div class="left">
-            <p>Для расчета заказа заполните форму ниже,
-                или позвоните нам 8 (495) 648-8-456</p>
-            <div class="formClient">
-                <form action="#">
-                    <div>
-                        <label for="orgName">Название организации</label>
-                        <input type="text" name="orgName" id="orgName">
-                    </div>
-                    <div>
-                        <label for="contact">Контактное лицо</label>
-                        <input type="text" name="contact" id="contact">
-                    </div>
-                    <div>
-                        <label for="phoneNum">Номер телефона</label>
-                        <input type="text" name="phoneNum" id="phoneNum">
-                    </div>
-                    <div class="cfix">
-                        <div>
-                            <span>Нанесение логотипа</span>
-                            <span>занимает 20 рабочих дней</span>
-                        </div>
-                        <ul>
-                            <li>
-                                <input class="radioBtn" type="radio" name="logoOn" id="logoOn1" checked>
-                                <label for="logoOn1">Да</label>
-                            </li>
-                            <li>
-                                <input class="radioBtn" type="radio" name="logoOn" id="logoOn2">
-                                <label for="logoOn2">Нет</label>
-                            </li>
-                        </ul>
-                        <div>
-                            <input type="file" name="addLogo" id="addLogo">
-                            <label for="addLogo">Прикрепите логотип</label>
-                            <span class="signature">.cdr, .ai, .eps, .tiff</span>
+<div class="container">
+    <div class="content CLIENT">
+        <ul class="breadcrumbs">
+            <li><a href="#">Главная / </a></li>
+            <li><span>Корпоративным клиентам</span></li>
+        </ul>
+        <div class="clientWrap cfix clear">
+            <div class="left">
+                <p>Для расчета заказа заполните форму ниже,<br>
+                    или позвоните нам 8 (495) 648-8-456</p>
+                <div class="formClient">
+                    <form action="#">
+                        <div class="ORG">
+                            <label for="orgName">Название организации</label>
+                            <input type="text" name="orgName" id="orgName">
                         </div>
                         <div>
-                            <label for="howMuch">Количество фигурок</label>
-                            <select name="howMuch" id="howMuch">
-                                <option value="150">150</option>
-                            </select>
+                            <label for="contact">Контактное лицо</label>
+                            <input type="text" name="contact" id="contact">
                         </div>
                         <div>
-                            <label for="date">Подготовить заказ к</label>
-                            <div>
-                                <input type="date" name="date" id="date">
-                                <img src="#" alt="date">
+                            <label for="phoneNum">Номер телефона</label>
+                            <input type="text" name="phoneNum" id="phoneNum">
+                        </div>
+                        <div class="cfix">
+                            <div class="printLogo clear">
+                                <div>
+                                    <span>Нанесение логотипа</span>
+                                    <span>занимает 20 рабочих дней</span>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <label for="logoOn1">Да</label>
+                                            <input class="radioBtn2" type="radio" name="logoOn" id="logoOn1" checked>
+                                        </li>
+                                        <li>
+                                            <label for="logoOn2">Нет</label>
+                                            <input class="radioBtn2" type="radio" name="logoOn" id="logoOn2">
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
+                            <div>
+                                <input type="file" name="addLogo" id="addLogo">
+                                <label for="addLogo">Прикрепите логотип</label>
+                                <span class="signature">.cdr, .ai, .eps, .tiff</span>
+                            </div>
+                            <div>
+                                <label for="howMuch">Количество фигурок</label>
+                                <select name="howMuch" id="howMuch">
+                                    <option value="150">150</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="date">Подготовить заказ к</label>
+                                <div>
+                                    <input type="date" name="date" id="date">
+                                    <img src="#" alt="date">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="moreInfo">Дополнительная информация</label>
+                                <textarea name="moreInfo" id="moreInfo"></textarea>
+                            </div>
+                            <button>Отправить</button>
                         </div>
-                        <div>
-                            <label for="moreInfo">Дополнительная информация</label>
-                            <textarea name="moreInfo" id="moreInfo"></textarea>
-                        </div>
-                        <button>Отправить</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="right">
-            <div>
-                <h3>Свежий подарок</h3>
-                <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
-                    лаконичный образ фигурки производит впечатление и здорово смотрится и дома и на рабочем месте, а
-                    нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
-                <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
-                    подготовят ваш логотип для нанесения на фигурку.</p>
+            <div class="right">
+                <div>
+                    <h3>Свежий подарок</h3>
+                    <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
+                        лаконичный образ фигурки производит впечатление и здорово смотрится и дома и<br> на рабочем месте, а
+                        нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
+                    <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
+                        подготовят ваш логотип для нанесения на фигурку.</p>
+                </div>
+                <div>
+                    <h3>Разные образы</h3>
+                    <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
+                        лаконичный образ фигурки производит впечатление и здорово смотрится и дома и<br> на рабочем месте, а
+                        нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
+                    <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
+                        подготовят ваш логотип для нанесения на фигурку.</p>
+                </div>
+                <div>
+                    <h3>Фигурки на заказ</h3>
+                    <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
+                        лаконичный образ фигурки производит впечатление и здорово смотрится и дома и<br> на рабочем месте, а
+                        нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
+                    <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
+                        подготовят ваш логотип для нанесения на фигурку.</p>
+                </div>
+                <button>Скачать презентацию</button>
             </div>
-            <div>
-                <h3>Разные образы</h3>
-                <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
-                    лаконичный образ фигурки производит впечатление и здорово смотрится и дома и на рабочем месте, а
-                    нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
-                <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
-                    подготовят ваш логотип для нанесения на фигурку.</p>
-            </div>
-            <div>
-                <h3>Фигурки на заказ</h3>
-                <p>Экочеловечки отлично вписались в ряды корпоративных подарков. Это не удивительно ведь стильный и
-                    лаконичный образ фигурки производит впечатление и здорово смотрится и дома и на рабочем месте, а
-                    нанесение логотипа вашей компании еще раз подчеркнет положительный образ в глазах клиента.</p>
-                <p>Наши дизайнеры предложат наиболее удачные варианты для размещения корпоративной символики и
-                    подготовят ваш логотип для нанесения на фигурку.</p>
-            </div>
-            <button>Скачать презентацию</button>
         </div>
     </div>
 </div>
