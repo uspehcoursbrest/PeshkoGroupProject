@@ -43,4 +43,16 @@ $(document).ready(function (){
 
     });
 
+    $(".owlSlider").owlCarousel({
+        dots: true,
+        nav: false,
+        items: 1,
+        dotsContainer: "#customDots",
+        loop: true
+    });
+
+    $("#tabs").tabs({
+        active: 0
+    });
+
 });
